@@ -1,0 +1,49 @@
+body{
+    margin: 10vw;
+}
+.comicContainer{
+    background-color: rgb(97, 183, 136);
+    height: 90vh;
+    padding: 10px;
+}
+.rowOne, .rowTwo{
+   /* border: solid navy;*/
+    height: 45%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.rowOne{
+    padding-bottom: 10px;
+}
+.block{
+    width: 33%;
+}
+.pic{
+    /*border: sold purple;*/
+    height: 70%;
+    width: 100%;
+}
+.punchLine{
+    background-color: tan;
+    border: solid rgb(235, 235, 235);
+    border-style: groove;
+    border-width: 8px;
+    height: 20%;
+    text-align: center;
+    color: teal;
+    font-family: Optima, Arial,sans-serif;
+    font-size: 16px;
+    text-align:center;
+    margin: auto;
+}
+.title{
+    font-family: Optima, Arial,sans-serif;
+    text-align: center;
+    color: teal;
+    border: solid rgb(152, 198, 198);
+    border-style: groove;
+    border-width: 8px;
+    margin-bottom: -3px;
+}
